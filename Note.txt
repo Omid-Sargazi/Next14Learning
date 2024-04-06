@@ -14,3 +14,28 @@ Metadata rules
 1- Both layout.js and page.js files can export metadata. if define in a layout, it applies to all pages in that layout, but it define in page, it applies only to that page 
 2- MetaData is read in order, from the root level down to the final page level.
 3- when there's metadata in multiple places for the same route, they get combined, but page metadata will replace layout metadata if they have the same properties. 
+
+//////////////////////////Title metadata/////////////////////////////////
+
+the title field's primary purpose is to define the document title
+it can be either a string or an object==>{
+    absolute:"we can set absolute from every page and it is preferable on default"
+    default:"every name for CEO"
+    template:"%s | name" // we can set %s from every page.tsx 
+}
+
+
+//////////////Navigation//////////
+we manually entered the URLs in the browser's address bar to navigate to the different routes.
+
+Users rely on elements like links to navigate
+    1- Clicking on them or
+    2- through programmatic navigation after completing an action
+
+link Components Navigation 
+To enable client-side navigation Next.js provides us with the link Components
+
+the <Link> component is a React component the extends the HTML <a> element, and it's the primary way to navigate between routes in Next.js
+To use it, we need to import it from "next/link/.
+
+replace in the tag navigate into Home page.

@@ -29,6 +29,7 @@
 
 import React from "react";
 import { Metadata } from "next";
+import Link from "next/link";
 
 
 type Props = {
@@ -51,6 +52,7 @@ const ProductsDetails = ({params}:Props)=>{
   return(
     <div>
       ProductsDetails{params.productsId}
+      <Link href={"/"}>Home</Link>
     </div>
   )
 }
