@@ -39,3 +39,6 @@ the <Link> component is a React component the extends the HTML <a> element, and 
 To use it, we need to import it from "next/link/.
 
 replace in the tag navigate into Home page.
+
+we can use startsWith method for check whatever urls start with anything. 
+const isActive = pathname.startsWith(link.href)
