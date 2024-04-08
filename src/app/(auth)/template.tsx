@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import "./styles.css"
+import { useState } from "react";
 
 const navLinks = [
     {name:"Register", href:"/register"},
@@ -14,9 +15,13 @@ const navLinks = [
 export default function AuthLayout({children,}:{
     children:React.ReactNode
 }){
+    const [input, setInput] = useState("")
     const pathname = usePathname();
     return (
         <>
+        <div>
+            <input type="text" value={input} placeholder="input your information...." onChange={e=>setInput(e.target.value)}/>
+        </div>
             <h2>Inner layout</h2>
             {
                 navLinks.map((link)=>{

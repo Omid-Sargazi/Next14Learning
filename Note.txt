@@ -42,3 +42,13 @@ replace in the tag navigate into Home page.
 
 we can use startsWith method for check whatever urls start with anything. 
 const isActive = pathname.startsWith(link.href)
+///////////////////////
+////////////////Navigating Programmatically//////////////////
+navigating to different route using the link components, we can Programmatically navigate to the specific route. 
+ for this job we can use "useNavigate" from "next/navigation" and then use push, replace and back for navigation.
+ 
+ /////////////////////////////Templates/////////////////////////////
+
+ templates are similar to layouts in that they wrap each child layout or page, But with templates, when a user navigates between routes that share a template, a new instance of the component is mounted, DOM elements are recreated, state is not preserved,and effects are re-synchronized.
+ A template can be defined by exporting a default React component from a template.js or template.tsx file.
+ similar to layouts, template also should accept a children prop which will render the nested segments in the route. 
