@@ -52,3 +52,15 @@ navigating to different route using the link components, we can Programmatically
  templates are similar to layouts in that they wrap each child layout or page, But with templates, when a user navigates between routes that share a template, a new instance of the component is mounted, DOM elements are recreated, state is not preserved,and effects are re-synchronized.
  A template can be defined by exporting a default React component from a template.js or template.tsx file.
  similar to layouts, template also should accept a children prop which will render the nested segments in the route. 
+ 
+ /////////////////////////////////
+
+ //////////////////////////Loading.tsx////////////
+ special files: 
+page.tsx
+layout.tsx
+template.tsx
+not-found.tsx
+
+ This file allows us to create loading states that are displayed to users while a specific route segments's content is loading
+ the loading state appears immediately upon navigation, giving users the assurance that the application is responsive and actively loading content.
