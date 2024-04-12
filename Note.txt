@@ -80,3 +80,9 @@ Automatically wrap a route segment and its nested children in a react Error boun
 create error UI tailored to specific segments using the file-system hierarchy to adjust granularity.
 isolate errors to affected segments while keeping the rest of the application functional.
 add functionality to attempt to recover from an error without a full page reload  a full page.
+
+//////////////Handling Error in nested routes/////////////////////
+
+Errors bubbled up to the closet parent error boundary.
+An error.tsx file   will cater to errors for all its nested child segments.
+By positioning error.tsx files at different levels in the nested folders of a route, you can achieve a more granular level of error handling.
