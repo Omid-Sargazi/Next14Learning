@@ -33,23 +33,23 @@ import Link from "next/link";
 
 
 type Props = {
-  params:{
-    productsId:string
+  params: {
+    productsId: string
   }
 }
-export const generateMetadata = async ({params}:Props):Promise<Metadata>=>{
-  const title = await new Promise(resolve=>{
-    setTimeout(()=>{
+export const generateMetadata = async ({ params }: Props): Promise<Metadata> => {
+  const title = await new Promise(resolve => {
+    setTimeout(() => {
       resolve(`iPhone${params.productsId}`)
-    },1000)
+    }, 1000)
   })
-  return{
-    title:`Product ${title}`
+  return {
+    title: `Product ${title}`
   }
 }
 
-const ProductsDetails = ({params}:Props)=>{
-  return(
+const ProductsDetails = ({ params }: Props) => {
+  return (
     <div>
       ProductsDetails{params.productsId}
       <Link href={"/"}>Home</Link>
