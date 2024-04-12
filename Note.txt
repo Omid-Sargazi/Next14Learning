@@ -86,3 +86,9 @@ add functionality to attempt to recover from an error without a full page reload
 Errors bubbled up to the closet parent error boundary.
 An error.tsx file   will cater to errors for all its nested child segments.
 By positioning error.tsx files at different levels in the nested folders of a route, you can achieve a more granular level of error handling.
+//////////////////////
+/////////////////////////
+////////////////////Handling Errors in Layouts//////////////////////////
+
+An errors.tsx file will handle errors for all its nested child segments.
+The error boundary does not catch errors thrown here because it's nested inside the layouts components. 
