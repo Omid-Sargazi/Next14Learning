@@ -64,3 +64,19 @@ not-found.tsx
 
  This file allows us to create loading states that are displayed to users while a specific route segments's content is loading
  the loading state appears immediately upon navigation, giving users the assurance that the application is responsive and actively loading content.
+
+
+
+ ////////////////////////////////Next.js 14 Tutorial - 24 - Error Handling
+special files: 
+page.tsx
+layout.tsx
+template.tsx
+not-found.tsx
+loading.tsx
+error.tsx
+
+Automatically wrap a route segment and its nested children in a react Error boundary.
+create error UI tailored to specific segments using the file-system hierarchy to adjust granularity.
+isolate errors to affected segments while keeping the rest of the application functional.
+add functionality to attempt to recover from an error without a full page reload  a full page.
