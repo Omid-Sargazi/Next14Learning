@@ -1,4 +1,7 @@
 import Card from "@/components/Card"
+import Link from "next/link";
 export default function Notification(){
-    return <Card>Notification</Card>
+    return <Card>
+        <div>Notification</div>
+        <Link href="/complex-dashboard/archive">Archived</Link></Card>
 }
