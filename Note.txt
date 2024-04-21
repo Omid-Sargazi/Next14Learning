@@ -111,4 +111,14 @@ independent route handling:
 sub-navigation:
     each slot of your dashboard can essentially function as a mini-application, complete with its own navigation and state management 
     this is especially useful in a complex application such as our dashboard where different sections serve distinct purpose.
-    
+/////////////////////////Intercepting Routes///////////////////////////////////////
+
+1- Intercepting Routes allow you to intercept or stop the default routing behavior to present an alternative view or component when navigating through th UI, while still preserving the intended route for scenarios like page reloads.
+2- this can be useful if you want to show a route while keeping the context of the current page.
+
+Intercepting Routes Conventions 
+display a different UI in the context on the current page but render the regular UI on page reload.
+(.) to match segments on the same level 
+(..) to match segments one level above
+(..)(..) to match segments two levels above
+(...) to match segments from the root app directory
