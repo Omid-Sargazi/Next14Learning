@@ -2,7 +2,7 @@ import Card from '@/components/Card'
 import Link from 'next/link'
 import React from 'react'
 
-export default function Notifications() {
+export default function DefaultNotifications() {
   return (
     <>
         <Card>
