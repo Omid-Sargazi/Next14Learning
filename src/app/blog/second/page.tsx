@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Second() {
+export default function SecondBlog() {
   return (
-    <div>Second</div>
+    <div>Second Blog Post</div>
   )
 }

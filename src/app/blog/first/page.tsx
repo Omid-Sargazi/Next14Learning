@@ -1,11 +1,7 @@
 import React from 'react'
 
-const First = () => {
+export default function FirstBlog() {
   return (
-    <div>
-      first blog
-    </div>
+    <div>FirstBlog Post</div>
   )
 }
-
-export default First
