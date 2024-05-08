@@ -1,8 +1,12 @@
 1- All routes must be placed inside the app folder.
 2- every file that corresponds to a route must be named page.js or page.tsx.
 3- every folder corresponds to a path segment in the browser URLs.
-4- we have 3 products(Products1, Products2, Products3)==>Products/id,products1 
-Routing Metadata
+4- Dynamic Routes==> we have 3 products(Products1, Products2, Products3)==>Products/id,products1 
+Routing Metadata.
+
+5- Nested Dynamic Routes==> 
+///////////////////////////////////////////////////////
+
  Ensuring proper search engine optimization (SEO) is crucial for increasing visibility and attracting users.
  Next.js introduced the Metadata API which allows you to define metadata for each page.
  Metadata ensures accurate and relevant information is displayed when your pages abs shared or indexed.
