@@ -5,6 +5,7 @@
 Routing Metadata.
 
 5- Nested Dynamic Routes==> 
+6- localhost:3000/docs/feature1/concept1 ===> [featureId][conceptId]
 ///////////////////////////////////////////////////////
 
  Ensuring proper search engine optimization (SEO) is crucial for increasing visibility and attracting users.
