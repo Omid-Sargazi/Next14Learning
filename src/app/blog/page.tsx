@@ -1,7 +1,6 @@
-import React from 'react'
-
-export default function Blog() {
-  return (
-    <div>Blog Page</div>
-  )
+export default function blog()
+{
+    return (
+        <h2>Blog Page</h2>
+    )
 }

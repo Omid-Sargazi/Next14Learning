@@ -1,7 +1,6 @@
-import React from 'react'
-
-export default function SecondBlog() {
-  return (
-    <div>Second Blog Post</div>
-  )
+export default function secondPage()
+{
+    return (
+        <h1>Second page</h1>
+    )
 }
