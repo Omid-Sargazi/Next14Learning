@@ -1,9 +1,6 @@
-import React from 'react'
-
-export default function DetailsProducts({params}:{
-    params:{productId:string}
-}) {
-  return (
-    <div>DetailsProducts Page {params.productId}</div>
-  )
+export default function productDetails({params})
+{
+    return (
+        <h1>Details about Product {params.productId}</h1>
+    )
 }

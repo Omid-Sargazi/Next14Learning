@@ -1,7 +1,6 @@
-import React from 'react'
-
-export default function Profile() {
-  return (
-    <div>My Profile</div>
-  )
+export default function Profile()
+{
+    return (
+        <h3>Profile Page</h3>
+    )
 }
